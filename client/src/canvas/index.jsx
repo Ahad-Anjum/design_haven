@@ -6,4 +6,4 @@ const Canvas = () => {
   )
 }
 
-export default index
+export default Canvas
