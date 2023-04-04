@@ -5,8 +5,8 @@ const state = proxy ({
     color: '#EFDB48',
     isLogoTexture: true,
     isFullTexture: false,
-    logoDecal: './threejs.png',
-    fullDecal: './threejs.png'
+    logoDecal: './mac_bball.PNG',
+    fullDecal: './mac_bball.PNG'
 
 });
 
