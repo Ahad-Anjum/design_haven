@@ -26,17 +26,20 @@ const Home = () => {
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text">
-                DESIGN <br className='x1:block hidden' /> HAVEN
-              </h1>
+            <h1 className="head-text">
+              <span style={{ background: 'linear-gradient(to right, orange, navy)', color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.4)' }}>
+              DESIGN <br className='x1:block hidden' /> HAVEN
+              </span>
+            </h1>
+
             </motion.div>
             <motion.div
               {... headContentAnimation}
               className= 'flex flex-col gap-5'
             >
               <p className='max-w-md font-normal text-gray-600 text-base'>
-                Create a unique Mac Basketball shirt with this 3D customization tool. Showcase your<strong> passion </strong>{" "}
-                and rep the squad.
+                Create a unique Mac Basketball shirt with this 3D customization tool. Showcase your<strong><span style={{color: 'navy'}}> passion </span> </strong>{" "}
+                and <strong><span style={{ color: 'navy' }}>rep the squad</span></strong>
               </p>
 
               <CustomButton 
