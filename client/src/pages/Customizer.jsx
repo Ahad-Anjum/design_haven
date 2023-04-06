@@ -52,7 +52,7 @@ const Customizer = () => {
     try {
       setGenerateIMG(true);
 
-      const response = await fetch('https://project-macbball-shirts.onrender.com', {
+      const response = await fetch('https://project-macbball-shirts.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
