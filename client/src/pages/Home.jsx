@@ -19,15 +19,15 @@ const Home = () => {
         <motion.section className="home" {...slideAnimation('left')}>
           <motion.header {...slideAnimation("down")}>
             <img
-              src='./threejs.png'
+              src='./Hotpot.png'
               alt="logo"
-              className="w-8 h-8 object-contain"
+              className="w-16 h-16 object-contain"
             />
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                LET'S <br className='x1:block hidden' /> DO IT.
+                DESIGN <br className='x1:block hidden' /> HAVEN
               </h1>
             </motion.div>
             <motion.div
@@ -35,8 +35,8 @@ const Home = () => {
               className= 'flex flex-col gap-5'
             >
               <p className='max-w-md font-normal text-gray-600 text-base'>
-                Create a unique shirt with this brand new 3D customization tool. <strong>Unleash your imagination</strong>{" "}
-                and define your style.
+                Create a unique Mac Basketball shirt with this 3D customization tool. Showcase your<strong> passion </strong>{" "}
+                and rep the squad.
               </p>
 
               <CustomButton 
