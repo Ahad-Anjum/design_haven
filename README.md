@@ -1,4 +1,4 @@
-# threejs_website
+# Design Haven
 
 This website is built with React, ThreeJS, Framer Motion, Tailwind CSS and DALLE AI to allow users to design and customize their own Macalester Men's
 Basketball team gear. Users are not limited to creating only basketball merchandise as the website gives users full freedom to play with the color schemes,
